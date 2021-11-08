@@ -2,10 +2,11 @@ package MANG_JAVA_3.BAI_TAP;
 
 import java.util.Scanner;
 
-public class Bt_4_Tim_PT_Lon_Nhat_Trong_Mang_Hai_Chieu {
+public class BT_6_Tinh_Tong_Cac_So_o_mot_Cot_Xac_Dinh {
     public static void main(String[] args) {
-        // khai báo số dòng và số cột của ma trận
-        int m, n;
+
+        int m;
+        int n;
 
         Scanner scanner = new Scanner(System.in);
 
@@ -24,19 +25,5 @@ public class Bt_4_Tim_PT_Lon_Nhat_Trong_Mang_Hai_Chieu {
                 A[i][j] = scanner.nextInt();
             }
         }
-
-        // tìm phần tử có giá trị lớn nhất trong ma trận
-        // giả sử phần tử tại vị trí (0,0) là phần tử lớn nhất
-        int max = A[0][0];
-
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                if (max < A[i][j]) {
-                    max = A[i][j];
-                }
-            }
-        }
-
-        System.out.println("Phần tử lớn nhất trong ma trận = " + max);
     }
 }
