@@ -40,7 +40,7 @@ public class BT_7_Mang_2_Chieu_Tinh_tong_cac_so_o_duong_cheo_chinh_cua_ma_tran {
         }
         System.out.println("tổng đường chéo chính của ma trận là: " + sum);
 
-        //int max = A[0][0];
+        // int max = A[0][0];
 //        int min = A[0][0];
 
         // các phần tử nằm trên đường chéo chính

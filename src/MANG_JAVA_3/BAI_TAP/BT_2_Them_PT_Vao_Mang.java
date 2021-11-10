@@ -11,7 +11,7 @@ public class BT_2_Them_PT_Vao_Mang {
             System.out.println("nhập so phần tử trong mảng");
             size = scanner.nextInt();
             if (size > 20)
-                System.out.println("Size does not exceed 20");
+                System.out.println("không vượt quá  20 PT");
         } while (size > 20);
         array = new int[size];
         int i = 0;
